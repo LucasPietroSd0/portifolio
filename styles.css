@@ -3,6 +3,29 @@
 margin: 0;
 padding: 0;}
 
+.anabele{
+width: 200px;
+height: 25px;
+font-weight: bold;
+background-color: rgb(0, 250, 62);
+border-radius: 50px;
+
+}
+
+#contact{
+    text-align: center;
+    margin-top: 50px;
+}
+
+button{cursor: pointer;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;}
+button:hover{
+    background-color: rgb(1, 88, 23);
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+}
 
        body {
             font-family: Arial, sans-serif;
@@ -42,13 +65,7 @@ padding: 0;}
         .project {
             margin-bottom: 2rem;
         }
-        footer {
-            text-align: center;
-            padding: 1rem 0;
-            background-color: #242424;
-            color: #fff;
-            width: 100%;
-        }
+       
         p {
            color: white;
         }
@@ -73,22 +90,53 @@ padding: 0;}
 #projects{
     height: 100vh;
 }
-#contact{
-    position: relative;
-    top: 100px;
-    
-}   
 footer{
-    position: relative;
-    top: 100px;
-    width: 100%;
-    height: 100%;
+    position: absolute;
     background-color: #000000;
+    width: 100%;
+    padding: 15px;
+    left: -10px;
+    text-align: center;
+    margin-top: 50px;
 }
 @media screen  and (max-width: 420px){
     .txt{
         text-align: center;
-        padding: 1px;
+       width: 50%;
       }
-    
+
+      nav{width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+      }
+      nav>a{
+        align-items: center;
+        margin-left: 50px;
+      }
+      .lucas{
+        position: absolute;
+        top: 150px;
+        width: 8rem ;
+        height: 8rem;
+      }
+   .main{
+    margin-top: -10px;
+    height: 100vh;
+   }
+   #figma{
+    position: relative;
+    top: 62px;
+    right: 58%;
+   }
+   .uniforme{
+    width: 90%;
+   }
+ .anabele{
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+font-weight: bold; 
+}
+
 }
